@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "İdmon · AGS Sayısal Yetenek",
+  "short_name": "İdmon",
+  "description": "AGS Sayısal Yetenek için adaptif çalışma aracı. Yanlış cevabın hangi hatadan geldiğini söyler.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "./calis.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF8F3",
+  "theme_color": "#FBF8F3",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "./idmon-ikon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./idmon-ikon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./idmon-ikon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./idmon-ikon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "./ekran/soru-dar.png", "sizes": "720x1280", "type": "image/png", "form_factor": "narrow",
+      "label": "Soru ekranı: AGS Sayısal Yetenek testinden bir madde" },
+    { "src": "./ekran/teshis-dar.png", "sizes": "720x1280", "type": "image/png", "form_factor": "narrow",
+      "label": "Teşhis ekranı: yanlış cevabın hangi adımdan geldiği" },
+    { "src": "./ekran/soru-genis.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide",
+      "label": "Soru ekranı, geniş düzen" },
+    { "src": "./ekran/teshis-genis.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide",
+      "label": "Teşhis ekranı, geniş düzen" }
+  ]
+}

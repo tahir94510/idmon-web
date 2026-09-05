@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <!-- TEMA ÖNYÜKLEME: ÜRETİLMİŞ — elle düzenlemeyin -->
+    <script>(function(){try{var t=localStorage.getItem("idmon.tema");if(t!=="dark"&&t!=="light")return;document.documentElement.setAttribute("data-theme",t);var s=document.querySelector('meta[name="theme-color"][media*="'+t+'"]');if(!s)return;var m=document.createElement("meta");m.setAttribute("name","theme-color");m.setAttribute("content",s.getAttribute("content"));document.head.insertBefore(m,document.head.firstChild);}catch(e){}})();</script>
+    <!-- TEMA ÖNYÜKLEME: SON -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="icon" href="./idmon-ikon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="theme-color" content="#FBF8F3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)" />
+    <title>İdmon · AGS Sayısal Yetenek çalışma aracı</title>
+    <meta name="description" content="AGS Sayısal Yetenek için adaptif çalışma aracı. Yanlış işaretlediğinde hangi hatayı yaptığını söyler ve bir sonraki soruyu ona göre seçer. Sorular hesaplanarak üretilir." />
+    <link rel="canonical" href="https://tahir94510.github.io/idmon-web/" />
+    <meta property="og:url" content="https://tahir94510.github.io/idmon-web/" />
+    <meta property="og:title" content="İdmon · AGS Sayısal Yetenek çalışma aracı" />
+    <meta property="og:description" content="Yanlış işaretlediğinde hangi hatayı yaptığını söyler ve bir sonraki soruyu ona göre seçer." />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://tahir94510.github.io/idmon-web/paylasim-karti.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="İdmon · yanlışının hangi hatadan geldiğini söyler" />
+    <meta property="og:site_name" content="İdmon" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="module" crossorigin src="./assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="./assets/sw-register-DZGNT9lE.js"></script>
+    <script type="module" crossorigin src="./assets/landing-hZ0chbPH.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/sw-register-CZ99RgYZ.css">
+  </head>
+  <body>
+    <a class="atla" href="#icerik">İçeriğe atla</a>
+    <header class="ust">
+      <div class="ust-ic">
+        <p class="marka">İdmon</p>
+        <nav class="gezinme">
+          <a href="./calis.html">Çalış</a>
+          <a href="./deneme.html">Deneme</a>
+          <button id="theme-button" type="button" class="button button-secondary" aria-pressed="false">
+            <span class="tema-koyuya">Karanlık tema</span>
+            <span class="tema-aciga">Aydınlık tema</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="icerik" class="giris">
+      <h1>AGS Sayısal Yetenek: en çok net kaybettiren test, en çok kazanılabilir olanı.</h1>
+
+      <p class="ozet">
+        AGS&rsquo;de Sayısal Yetenek 15 soru ve adayların ortalaması 3,4 net.
+        Yani 15 sorunun 11,6&rsquo;sı masada duruyor. Sözel&rsquo;de masada duran
+        6,7 net var; Sayısal, sınavın en büyük kazanılmamış havuzu.
+      </p>
+
+      <p><a class="button button-primary" href="./calis.html">Soru çözmeye başla</a></p>
+      <p class="alt-not">Kayıt yok, ücret yok. Çözdüklerin cihazından çıkmıyor.</p>
+
+      <h2>Bu araç ne yapıyor</h2>
+      <p>
+        Yanlış bir şık işaretlediğinde &ldquo;yanlış&rdquo; demiyor.
+        <strong>Hangi adımda saptığını</strong> söylüyor: yüzdeyi yanlış tabana
+        uyguladın mı, EKOK yerine toplama mı yaptın, grafikte eğimi artış mı
+        sandın. Sonra doğru yolu gösteriyor ve bir sonraki soruyu tam o eksiğe
+        göre seçiyor.
+      </p>
+      <p>
+        Bunun mümkün olmasının sebebi soruların yazılmıyor,
+        <strong>hesaplanıyor</strong> olması. Her yanlış şık rastgele bir sayı
+        değil; adı konmuş bir düşünme hatasının hesaplanmış sonucu. Şıkkı
+        işaretlediğinde sistem hangi hatayı yaptığını zaten biliyor.
+      </p>
+
+      <h2>Neden hesaplanan soru</h2>
+      <p>
+        Cevap tahmin edilmediği için sistem matematiksel olarak yanlış cevap
+        veremez: her sorunun doğrusu üretim sırasında hesaplanıyor ve otomatik
+        denetimlerden geçiyor. Aynı sebeple sorular tükenmiyor; her oturumda
+        yeni bir soru üretilebiliyor.
+      </p>
+
+      <h2>Çıkmış soru kullanmıyoruz</h2>
+      <p>
+        ÖSYM soruları telif kapsamında eserdir ve izinsiz çoğaltılamaz.
+        İdmon&rsquo;daki her soru kendi motorumuzun ürettiği, bize ait bir
+        sorudur. Bunun sana faydası şu: soru bitmiyor, aynı tipi başka
+        sayılarla istediğin kadar çalışabiliyorsun.
+      </p>
+
+      <h2>Sık sorulanlar</h2>
+      <dl class="sss">
+        <dt>Ücretli mi?</dt>
+        <dd>Bu sürüm ücretsiz ve kayıt istemiyor. Çözdüğün sorular ve ilerlemen
+          tarayıcında saklanıyor, hiçbir sunucuya gönderilmiyor.</dd>
+
+        <dt>Kaç soru var?</dt>
+        <dd>Soru sayısı sabit değil: sorular bir bankadan seçilmiyor, üretiliyor.
+          Şu an 37 mikrobecerinin tamamını kapsayan 118 soru tipi var ve her tip
+          binlerce farklı soru üretebiliyor.</dd>
+
+        <dt>Diğer AGS uygulamalarından farkı ne?</dt>
+        <dd>Aynı soruyu bilmeyen birine bin kez sormak öğretmiyor. İdmon
+          yanlış işaretlediğin şıkkın hangi düşünme hatasından geldiğini
+          adıyla söylüyor ve sıradaki soruyu ona göre seçiyor.</dd>
+
+        <dt>Netimi ne kadar artırır?</dt>
+        <dd>Bilmiyoruz ve uyduramayız. Elimizdeki ölçüm sentetik öğrenci
+          nüfusunda yapıldı; gerçek adaylarda ne olacağını ancak gerçek
+          kullanımla öğreneceğiz. Bir sayı vaat eden herkesin o sayıyı nereden
+          aldığını sorun.</dd>
+
+        <dt>İnternetsiz çalışır mı?</dt>
+        <dd>Sorular bir kez indikten sonra çevrimdışı çalışır.</dd>
+      </dl>
+
+      <h2>Nasıl ölçüyoruz</h2>
+      <p>
+        Bu araçtaki her sayı bir ölçümden geliyor, bir iddiadan değil. Soru
+        üretimi otomatik denetimlerden geçiyor, soru seçimi sentetik bir öğrenci
+        nüfusunda ölçülüyor, arayüzün kontrastı ve erişilebilirliği her
+        değişiklikte makineyle sınanıyor. Ölçmediğimiz şeyi söylemiyoruz.
+      </p>
+
+      <p><a class="button button-primary" href="./calis.html">Soru çözmeye başla</a></p>
+    </main>
+
+    <footer class="alt">
+      <p>İdmon · AGS Sayısal Yetenek çalışma aracı</p>
+      <p class="alt-bagimsizlik">
+        İdmon bağımsız bir çalışma aracıdır. ÖSYM ve MEB ile bir ilişkisi yoktur,
+        onlar tarafından onaylanmamıştır. Sorular İdmon&rsquo;un kendi motoruyla
+        üretilir.
+      </p>
+      <p class="alt-baglantilar"><a href="./gizlilik.html">Gizlilik</a></p>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "İdmon",
+          "url": "https://tahir94510.github.io/idmon-web/",
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "Web",
+          "inLanguage": "tr",
+          "description": "AGS Sayısal Yetenek için adaptif çalışma aracı. Yanlış cevabın hangi düşünme hatasından geldiğini söyler ve sıradaki soruyu ona göre seçer.",
+          "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "İdmon ücretli mi?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Bu sürüm ücretsiz ve kayıt istemiyor. Çözülen sorular ve ilerleme tarayıcıda saklanıyor, sunucuya gönderilmiyor." }
+            },
+            {
+              "@type": "Question",
+              "name": "Kaç soru var?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Soru sayısı sabit değil: sorular bir bankadan seçilmiyor, üretiliyor. 37 mikrobecerinin tamamını kapsayan 118 soru tipi var ve her tip binlerce farklı soru üretebiliyor." }
+            },
+            {
+              "@type": "Question",
+              "name": "Diğer AGS uygulamalarından farkı ne?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Aynı soruyu bilmeyen birine bin kez sormak öğretmiyor. İdmon yanlış işaretlenen şıkkın hangi düşünme hatasından geldiğini adıyla söylüyor ve sıradaki soruyu ona göre seçiyor." }
+            },
+            {
+              "@type": "Question",
+              "name": "Netimi ne kadar artırır?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Bilinmiyor. Mevcut ölçümler sentetik bir öğrenci nüfusunda yapıldı; gerçek adaylardaki etki ancak gerçek kullanımla ölçülebilir." }
+            },
+            {
+              "@type": "Question",
+              "name": "İnternetsiz çalışır mı?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Sorular bir kez indikten sonra çevrimdışı çalışır." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </body>
+</html>
