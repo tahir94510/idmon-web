@@ -1,0 +1,7 @@
+<!-- ÜRETİLMİŞ DOSYA — elle düzenlemeyin. Kaynak: src/design/icon.ts
+     Yeniden üret: npm run icons -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="İdmon">
+  <rect width="512" height="512" rx="112" fill="#0E4746"/>
+  <path d="M124 356 L212 356 L212 264 L300 264 L300 172 L388 172" fill="none" stroke="#FBF8F3" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="212" cy="264" r="44" fill="#7FCDC7"/>
+</svg>
