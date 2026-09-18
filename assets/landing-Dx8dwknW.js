@@ -1,0 +1,1 @@
+/* empty css             */import{a as t,r as n}from"./sw-register-BASalIQY.js";t(document.getElementById("theme-button"));n();const e=document.getElementById("acilis-tani");e&&(e.textContent=document.referrer.startsWith("android-app://")?"Şu an İdmon uygulamasının içindesin.":"Şu an tarayıcıdasın. İdmon telefonuna kuruluysa, çözdüklerin orada ayrı duruyor.");
