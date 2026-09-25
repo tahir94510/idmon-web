@@ -1,0 +1,1 @@
+import{e as t}from"./dom-BMUgfUWI.js";import{e,w as i}from"./data-CnZpzvL4.js";function f(s){const o=t("ol",{class:"cozum"});for(const a of s)o.append(n(a));return o}function n(s){const o=t("li",{},t("span",{},e(s.aciklama)));return s.ifade&&o.append(t("code",{class:"ifade",text:i(s.ifade)})),o}export{n as a,f as s};
