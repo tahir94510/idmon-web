@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /idmon-web/
+
+# Bu sayfalar kişiye özel durum ya da iç denetim yüzeyi gösteriyor.
+# Sayfaların kendisinde de noindex var; bu dosya yalnızca sitenin kökten
+# yayımlandığı durumda okunur.
+Disallow: /idmon-web/calis.html
+Disallow: /idmon-web/deneme.html
+Disallow: /idmon-web/ilerleme.html
+Disallow: /idmon-web/ornekler.html
+Disallow: /idmon-web/numune.html
+Disallow: /idmon-web/esdegerlik.html
+
+Sitemap: https://tahir94510.github.io/idmon-web/sitemap.xml
